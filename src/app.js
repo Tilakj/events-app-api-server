@@ -11,6 +11,7 @@ const eventsRouter = require('./routes/events');
 const eventRouter = require('./routes/event');
 const configRouter = require('./routes/config');
 
+//express
 const app = express();
 
 app.use(logger('dev'));
